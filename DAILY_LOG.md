@@ -71,9 +71,15 @@ data = pd.read_csv(
 可以直接从文件名中提取到ticker
 
 **下一个工作日的任务**
-- 
+- 理解并且计算MA5 & MA20
+- roadmap遵循
 
 **今天学习到的新知识**
 - 我们昨天在考虑的问题2,其实这个行索引的表头date不是数据本身,而是多重索引中的结构,
 所以data.dropna(how='all')不会删去改行
 并且missing = data.isnull().sum()统计缺失值也不会计入这一行
+- 今天复习了如何上传文件至gtihub并且即使记录更新,需要一封.gitignore文件防止将不必要的文件上传
+- 使用mplfinance直接绘制k线图
+- 复习了loc与iloc,loc基于标签并且是inclusive的,iloc则是基于位置的exclusive
+- 使用.copy()创建副本是十分重要的,pandas在很多操作中返回的是view视图而非副本,而修改view是无效的操作
+所以在修改dataframe前.copy()是一个可以避免很多错误的操作
