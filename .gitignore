@@ -1,0 +1,63 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# ===== 虚拟环境 =====
+.venv/
+venv/
+ENV/
+env/
+
+# ===== PyCharm =====
+.idea/
+*.iml
+.idea_modules/
+
+# ===== 数据文件 =====
+# 如果数据文件很大,不想上传到GitHub,取消下面的注释
+# data/*.csv
+# data/*.xlsx
+# 或者只保留样本数据,其他都忽略:
+# data/*
+# !data/sample.csv
+
+# ===== 结果文件 =====
+# 生成的图表和报告
+results/
+*.png
+*.jpg
+*.jpeg
+
+# ===== 日志文件 =====
+# *.log
+# DAILY_LOG.md
+
+# ===== Jupyter Notebook =====
+.ipynb_checkpoints/
+*.ipynb
+
+# ===== 环境变量和敏感信息 =====
+.env
+.env.local
+config.ini
+secrets.json
+
+# ===== 操作系统 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== 测试覆盖率 =====
+.coverage
+htmlcov/
+.pytest_cache/
+
+# ===== 备份文件 =====
+*.bak
+*.swp
+*.swo
+*~
