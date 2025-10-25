@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da932970-6517-4196-bf67-41bc0750369a" name="Changes" comment="更新今日2025/10/25双均线indicator+日志+PROJECT_ROADMAP升级为pro" />
+    <list default="true" id="da932970-6517-4196-bf67-41bc0750369a" name="Changes" comment="更新今日2025/10/25双均线indicator+日志+PROJECT_ROADMAP升级为pro">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +28,9 @@
     &quot;assignee&quot;: &quot;BoYi0521&quot;
   }
 }</component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="8247cf23-041e-4600-b0bb-bf1fbc8516c1" />
+  </component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/BoYi0521/quantitative_backtest.git&quot;,
@@ -52,7 +57,7 @@
     "git-widget-placeholder": "master",
     "junie.onboarding.icon.badge.shown": "true",
     "last_opened_file_path": "E:/quantitative_backtest",
-    "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
@@ -203,7 +208,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761430662780</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="更新今日2025/10/25双均线indicator+日志+PROJECT_ROADMAP升级为pro">
+      <option name="closed" value="true" />
+      <created>1761430871405</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1761430871405</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
