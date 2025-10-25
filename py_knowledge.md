@@ -6,3 +6,7 @@ index_col将时间设置为索引, parse_dates=[0]则将可能是时间的内容
 - daily_return = close_price.pct_change(): 计算每天的涨跌幅
   volatility = daily_return.std() * np.sqrt(len(data)) * 100: 每日收益的"标准差"*交易日天数 = 年标准差,
   也就是年标准差(年化波动率)
+- rolling()是滚动计算函数,比如data['Close'].rolling(window=short_window).mean()就是滚动计算MA
+且会将前window-1的天数自动设置为nan
+- diff()则是一阶滚动差分
+- 

@@ -83,3 +83,8 @@ data = pd.read_csv(
 - 复习了loc与iloc,loc基于标签并且是inclusive的,iloc则是基于位置的exclusive
 - 使用.copy()创建副本是十分重要的,pandas在很多操作中返回的是view视图而非副本,而修改view是无效的操作
 所以在修改dataframe前.copy()是一个可以避免很多错误的操作
+
+## 2025/10/25
+
+今天充分考虑一下当前项目的缺点,只是一个双均线指标显然是不够的,但是可以作为一个合适的引入,所以我更新了
+Project_roadmap将项目扩展了一下,今天也是简单地完成了双均线的indicator的生成

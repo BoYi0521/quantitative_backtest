@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da932970-6517-4196-bf67-41bc0750369a" name="Changes" comment="2025/10/22 day2">
+    <list default="true" id="da932970-6517-4196-bf67-41bc0750369a" name="Changes" comment="更新今日2025/10/22日志">
+      <change afterPath="$PROJECT_DIR$/PROJECT_ROADMAP_PRO.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAILY_LOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/DAILY_LOG.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PROJECT_ROADMAP.md" beforeDir="false" afterPath="$PROJECT_DIR$/PROJECT_ROADMAP.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculate_indicators.py" beforeDir="false" afterPath="$PROJECT_DIR$/calculate_indicators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_knowledge.md" beforeDir="false" afterPath="$PROJECT_DIR$/py_knowledge.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock_knowledge.md" beforeDir="false" afterPath="$PROJECT_DIR$/stock_knowledge.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,18 +27,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "BoYi0521"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;BoYi0521&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/BoYi0521/quantitative_backtest.git",
-    "accountId": "8247cf23-041e-4600-b0bb-bf1fbc8516c1"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/BoYi0521/quantitative_backtest.git&quot;,
+    &quot;accountId&quot;: &quot;8247cf23-041e-4600-b0bb-bf1fbc8516c1&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -47,6 +50,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.calculate_indicators.executor": "Run",
     "Python.download_data.executor": "Run",
     "Python.explore_data.executor": "Run",
     "Python.test_imports.executor": "Run",
@@ -54,6 +58,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "E:/quantitative_backtest",
     "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog",
     "to.speed.mode.migration.done": "true"
   }
@@ -63,7 +68,29 @@
       <command value="pip install pandas numpy matplotlib yfinance --break-system-packages" />
     </option>
   </component>
-  <component name="RunManager" selected="Python.explore_data">
+  <component name="RunManager" selected="Python.calculate_indicators">
+    <configuration name="calculate_indicators" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="quantitative_backtest" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/calculate_indicators.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="download_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="quantitative_backtest" />
       <option name="ENV_FILES" value="" />
@@ -132,6 +159,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.calculate_indicators" />
         <item itemvalue="Python.explore_data" />
         <item itemvalue="Python.download_data" />
         <item itemvalue="Python.test_imports" />
@@ -161,11 +189,20 @@
       <option name="project" value="LOCAL" />
       <updated>1761165006444</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="更新今日2025/10/22日志">
+      <option name="closed" value="true" />
+      <created>1761165963471</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1761165963471</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2025/10/22 day2" />
-    <option name="LAST_COMMIT_MESSAGE" value="2025/10/22 day2" />
+    <MESSAGE value="更新今日2025/10/22日志" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新今日2025/10/22日志" />
   </component>
 </project>
